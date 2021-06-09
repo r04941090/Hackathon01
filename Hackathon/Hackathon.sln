@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "內容替換", "內容替換\內容替換.csproj", "{D49D4108-4B45-4ABD-98CF-77A33D82C616}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "溫度轉換", "溫度轉換\溫度轉換.csproj", "{43C08639-F5BB-458F-B385-CE3C62EC57E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "計算個別字串數量", "計算個別字串數量\計算個別字串數量.csproj", "{B3009900-95E3-4A2C-937C-FDCBB5625926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "猜數字遊戲", "猜數字遊戲\猜數字遊戲.csproj", "{6FBA85BB-829C-43FA-86B1-C7D81AF56714}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "生命靈數", "生命靈數\生命靈數.csproj", "{1847EA9C-1C03-4D46-AE7F-6347D6F60AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "累進稅率", "累進稅率\累進稅率.csproj", "{25E4A911-1C53-4D2A-A850-5471CBE39441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "累進稅率Tests", "累進稅率Tests\累進稅率Tests.csproj", "{7C0DC41D-7C12-4CF0-A25A-451C92CD423D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D49D4108-4B45-4ABD-98CF-77A33D82C616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49D4108-4B45-4ABD-98CF-77A33D82C616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49D4108-4B45-4ABD-98CF-77A33D82C616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49D4108-4B45-4ABD-98CF-77A33D82C616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C08639-F5BB-458F-B385-CE3C62EC57E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C08639-F5BB-458F-B385-CE3C62EC57E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C08639-F5BB-458F-B385-CE3C62EC57E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C08639-F5BB-458F-B385-CE3C62EC57E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3009900-95E3-4A2C-937C-FDCBB5625926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3009900-95E3-4A2C-937C-FDCBB5625926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3009900-95E3-4A2C-937C-FDCBB5625926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3009900-95E3-4A2C-937C-FDCBB5625926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBA85BB-829C-43FA-86B1-C7D81AF56714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBA85BB-829C-43FA-86B1-C7D81AF56714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBA85BB-829C-43FA-86B1-C7D81AF56714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBA85BB-829C-43FA-86B1-C7D81AF56714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1847EA9C-1C03-4D46-AE7F-6347D6F60AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1847EA9C-1C03-4D46-AE7F-6347D6F60AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1847EA9C-1C03-4D46-AE7F-6347D6F60AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1847EA9C-1C03-4D46-AE7F-6347D6F60AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E4A911-1C53-4D2A-A850-5471CBE39441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E4A911-1C53-4D2A-A850-5471CBE39441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E4A911-1C53-4D2A-A850-5471CBE39441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E4A911-1C53-4D2A-A850-5471CBE39441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0DC41D-7C12-4CF0-A25A-451C92CD423D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0DC41D-7C12-4CF0-A25A-451C92CD423D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0DC41D-7C12-4CF0-A25A-451C92CD423D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0DC41D-7C12-4CF0-A25A-451C92CD423D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {342D2223-8047-48F9-BBAA-91BD3204B1B4}
+	EndGlobalSection
+EndGlobal

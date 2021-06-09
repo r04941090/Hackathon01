@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "猜數字遊戲/1.0.0": {
+        "runtime": {
+          "猜數字遊戲.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "猜數字遊戲/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

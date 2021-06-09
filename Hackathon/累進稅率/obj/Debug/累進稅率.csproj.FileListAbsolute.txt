@@ -1,0 +1,7 @@
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\累進稅率\bin\Debug\累進稅率.exe.config
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\累進稅率\bin\Debug\累進稅率.exe
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\累進稅率\bin\Debug\累進稅率.pdb
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\累進稅率\obj\Debug\累進稅率.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\累進稅率\obj\Debug\累進稅率.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\累進稅率\obj\Debug\累進稅率.exe
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\累進稅率\obj\Debug\累進稅率.pdb

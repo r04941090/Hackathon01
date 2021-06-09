@@ -1,0 +1,7 @@
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\計算個別字串數量\bin\Debug\計算個別字串數量.exe.config
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\計算個別字串數量\bin\Debug\計算個別字串數量.exe
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\計算個別字串數量\bin\Debug\計算個別字串數量.pdb
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\計算個別字串數量\obj\Debug\計算個別字串數量.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\計算個別字串數量\obj\Debug\計算個別字串數量.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\計算個別字串數量\obj\Debug\計算個別字串數量.exe
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\計算個別字串數量\obj\Debug\計算個別字串數量.pdb
