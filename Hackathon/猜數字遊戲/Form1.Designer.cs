@@ -37,11 +37,13 @@ namespace 猜數字遊戲
             this.GiveUp = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Start
             // 
-            this.Start.Location = new System.Drawing.Point(22, 39);
+            this.Start.Location = new System.Drawing.Point(22, 54);
             this.Start.Name = "Start";
             this.Start.Size = new System.Drawing.Size(112, 34);
             this.Start.TabIndex = 0;
@@ -51,7 +53,7 @@ namespace 猜數字遊戲
             // 
             // Reveal
             // 
-            this.Reveal.Location = new System.Drawing.Point(22, 96);
+            this.Reveal.Location = new System.Drawing.Point(22, 122);
             this.Reveal.Name = "Reveal";
             this.Reveal.Size = new System.Drawing.Size(112, 34);
             this.Reveal.TabIndex = 1;
@@ -113,11 +115,29 @@ namespace 猜數字遊戲
             this.label2.TabIndex = 7;
             this.label2.Text = "遊戲歷程";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(150, 54);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(98, 30);
+            this.textBox1.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(150, 28);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(82, 23);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "數字位數";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(652, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.GiveUp);
@@ -127,7 +147,8 @@ namespace 猜數字遊戲
             this.Controls.Add(this.Reveal);
             this.Controls.Add(this.Start);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "猜數字";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,6 +164,8 @@ namespace 猜數字遊戲
         private System.Windows.Forms.Button GiveUp;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
     }
 }
 

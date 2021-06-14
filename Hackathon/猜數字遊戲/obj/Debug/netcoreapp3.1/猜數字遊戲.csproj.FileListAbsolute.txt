@@ -5,7 +5,6 @@ C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜�
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\bin\Debug\netcoreapp3.1\猜數字遊戲.dll
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\bin\Debug\netcoreapp3.1\猜數字遊戲.pdb
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.csprojAssemblyReference.cache
-C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.Form1.resources
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.csproj.GenerateResource.cache
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.AssemblyInfoInputs.cache
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜�
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.dll
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.pdb
 C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive - Smasoft Technology\桌面\C#\Hackathon01\Hackathon\猜數字遊戲\obj\Debug\netcoreapp3.1\猜數字遊戲.猜數字.resources

@@ -12,45 +12,26 @@ namespace 猜數字遊戲
 {
     public partial class Form1 : Form
     {
-        List<int> Answer;
+        GameHost gameHost;
         List<string> Process;
-        int A;
-        int B;
-        int NumberCount;
         public Form1()
         {
             InitializeComponent();
-            Initialize();
+            ChangeFormState(false);
+            textBox1.Text = "4";
         }
-        private void GenerateAnswer()
+        public void ChangeFormState(bool Enable)
         {
-            Random rnd = new Random();
-            //int number;
-            //while(Answer.Count < 4)
-            //{
-            //    number = rnd.Next(0, 9);
-            //    if(!Answer.Contains(number))
-            //    {
-            //        Answer.Add(number);
-            //    }
-            //}
-
-            List<int> Total = Enumerable.Range(0, 9).Select((x) => x).ToList();
-            for (int i = 0; i < NumberCount; i++)
-            {
-                int index = rnd.Next(0, Total.Count);
-                Answer.Add(Total[index]);
-                Total.RemoveAt(index);
-            }
-            //MessageBox.Show(string.Join("", Answer));
+            Reveal.Enabled = Enable;
+            EnterAnswer.Enabled = Enable;
+            Check.Enabled = Enable;
+            GiveUp.Enabled = Enable;
         }
         private void Initialize()
         {
-            A = 0;
-            B = 0;
-            NumberCount = 4;
-            Answer = new List<int>();
             Process = new List<string>();
+            gameHost = new GameHost(int.Parse(textBox1.Text));
+            gameHost.Finish += CheckPass;
             UpdataData();
             
         }
@@ -59,55 +40,33 @@ namespace 猜數字遊戲
             listBox1.DataSource = null;
             listBox1.DataSource = Process;
         }
-        private void CheckAnswer()
-        {
-            char[] a = EnterAnswer.Text.ToCharArray();
-            A = 0;
-            B = 0;
-            for (int i = 0; i < a.Length; i++)
-            {
-                int FindIndex = Answer.FindIndex((x) => x == int.Parse(a[i].ToString()));
-                if(FindIndex != -1)
-                {
-                    if(FindIndex == i)
-                    {
-                        A++;
-                    }
-                    else
-                    {
-                        B++;
-                    }
-                }
-            }
-            Process.Add($"{EnterAnswer.Text}：{A}A{B}B");
-        }
         private void CheckPass()
         {
-            if(A == 4)
-            {
-                MessageBox.Show("恭喜過關");
-            }
+            MessageBox.Show("恭喜過關");
         }
         private void Check_Click(object sender, EventArgs e)
         {
-            CheckAnswer();
+            Process.Add(gameHost.CheckAnswer(EnterAnswer.Text));
             UpdataData();
-            CheckPass();
         }
         private void GiveUp_Click(object sender, EventArgs e)
         {
             Initialize();
+            Start.Enabled = true;
+            EnterAnswer.Text = string.Empty;
+            ChangeFormState(false);
         }
 
         private void Reveal_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(string.Join("", Answer));
+            MessageBox.Show($"答案：{gameHost.GetAnswer()}");
         }
 
         private void Start_Click(object sender, EventArgs e)
         {
             Initialize();
-            GenerateAnswer();
+            Start.Enabled = false;
+            ChangeFormState(true);
         }
     }
 }
